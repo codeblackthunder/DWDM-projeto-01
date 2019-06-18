@@ -1,0 +1,41 @@
+
+.title-contato{
+	grid-area: titulo;background-color: blue;
+	text-align: center;
+}
+.map-location{grid-area: map;background-color: red;}
+.informacoes{grid-area: informacoes;background-color: green;}
+.matriz{grid-area: matriz;background-color: pink;}
+.carreiras{grid-area: carreiras;background-color: yellow;}
+.orcamento{grid-area: orcamento;background-color: brown}
+#contato{
+
+	height: 140vh;
+	width: 98vw;
+	display: grid;
+	grid-template-columns:1fr 1fr ;
+	grid-template-areas: 
+	"titulo titulo"
+	"map map"
+	"informacoes matriz"
+	"informacoes carreiras"
+	"informacoes orcamento"
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+footer{
+	height: 10vh;
+	background-color: purple;
+}

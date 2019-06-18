@@ -1,0 +1,28 @@
+.quem-somos-desc{grid-area: descricao}
+.img-quem-somos{grid-area: img}
+.title-desc-quem-somos{
+	text-align: center;
+}
+
+
+
+
+#quem-somos{
+	height: 98vh;
+	width: 98vw;
+	display: grid;
+	grid-template-areas: 
+	"descricao img";
+
+}
+
+
+.desc{
+
+
+}
+
+
+.img-responsive{
+
+}
