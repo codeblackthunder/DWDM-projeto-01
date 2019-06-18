@@ -1,0 +1,25 @@
+
+.title-service{color: white;}
+.descrition-service{
+	color: white;
+}
+.item{
+
+}
+.title-services{
+	text-align: center;
+	grid-area: titulo;
+}
+.item-service-1{grid-area: item-1;}
+.item-service-2{grid-area: item-2;}
+.item-service-3{grid-area: item-3;}
+
+#servicos{
+	height: 98vh;
+	width: 98vw;
+	display: grid;
+	border: solid 3px black;
+	grid-template-areas: 
+	"titulo titulo titulo"
+	"item-1 item-2 item-3";
+}
